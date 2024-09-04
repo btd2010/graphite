@@ -2,7 +2,7 @@
 Graphite is a framework for the Carbon language that will allow you to write valid [Luau](https://luau.org) code in Carbon. It transpiles to Roblox Luau and should work with most versions of Carbon.
 
 ```go
-import "Roblox";
+import Roblox;
 
 fn Main() -> i32 {
     var Part: Roblox.Instance.Part = Roblox.Workspace:WaitForChild("Part");
